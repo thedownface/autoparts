@@ -1,0 +1,29 @@
+.dropdownmenu {
+    display: block;
+    position: static;
+    left: 0;
+    top:100%;
+    background: linear-gradient(135deg ,cyan,white);
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
+    text-decoration: none;
+    float: right
+   
+
+}
+
+.dropdownmenu ul {
+    display: block;
+    margin: 10px;
+}
+.dropdownmenu ul li{ 
+    width:180px;
+    padding: 10px;
+
+}
+
+.dropdownmenu ul li a{ 
+    text-decoration: none;
+    color: blue;
+}
+

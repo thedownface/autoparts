@@ -1,0 +1,118 @@
+.home_content{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+    position: relative;
+    margin-top: 150px;
+    padding: 100px 180px ;
+    text-align: center;
+   justify-content: space-between;
+    display:table-row;
+    float: left;
+}
+.home_content .first_heading {
+    font-size: 39px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    line-height: 58px;
+    text-shadow: 2px 2px black;
+}
+
+.home_content .second_heading {
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    display: inline;
+    font-weight: 700;
+    text-shadow: 2px 2px black;
+    
+
+    
+
+}
+
+.home_content .third_heading {
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    display: inline;
+    font-weight: 700;
+    text-shadow: 2px 2px black;
+
+}
+
+.offer {
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(190, 2, 2);
+    font-weight: 700;
+    line-height: 45px;
+    text-shadow: 2px 2px black;
+
+
+
+}
+
+.call_us_now
+{
+    margin-top: 20px;
+    padding: 9px 25px;
+	background:linear-gradient(135deg,rgba(171, 31, 24, 0.943),rgb(255, 13, 0));
+	border: none;
+	border-radius: 50px;
+	cursor: pointer;
+	transition: all 0.3s ease 0s;
+}
+@media screen and (max-width:600px) {
+    .home_content{
+        display: table-row;
+        float: none;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        text-align: center;
+        font-weight: 700;
+        align-items: center;
+       
+        
+    }
+
+    .home_content .first_heading{
+
+        font-size: 27px;
+        float: none;
+
+
+    }
+    .home_content .second_heading{
+        font-size: 24px;
+        float: none;
+        
+
+    }
+
+    .home_content .third_heading {
+        font-size: 24px;
+        float: none;
+    
+    }
+    .home_content .call_us_now
+{
+    align-items: center;
+    margin-top: 10px;
+    padding: 4px 15px;
+	background:linear-gradient(135deg,rgba(171, 31, 24, 0.943),rgb(255, 13, 0));
+	border: none;
+	border-radius: 50px;
+	cursor: pointer;
+	transition: all 0.3s ease 0s;
+
+
+}
+.home_content .offer {
+    font-size: 24px;
+    color: rgb(190, 2, 2);
+    font-weight: 700;
+    text-align: center;
+    line-height: 45px;
+    text-shadow: 2px 2px black;
+}
+}
